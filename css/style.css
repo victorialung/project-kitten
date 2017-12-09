@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.kitten-image {
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    background-image: url("../assets/img/sunny-day.jpg");
+    padding-top: 200px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.kitten-small-image {
+    display: none;
+}
+
+.kitten-medium-image {
+    display: none;
+}
+
+
+/* grid */
+
+[class*="column-"] {
+    float: left;
+    /* outline: 1px solid royalblue; */
+}
+
+
+/* media querie */
+
+@media only screen and (min-width :480px) {
+    .column-xs-12 {
+        width: 100%;
+    }
+    section {
+        background-image: url("../assets/img/dawn.jpg");
+    }
+    .kitten-small-image {
+        display: none;
+    }
+    .kitten-medium-image {
+        display: none;
+    }
+    .kitten-large-image {
+        display: block;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .column-mn-12 {
+        width: 100%;
+    }
+    section {
+        background-image: url("../assets/img/nigth.jpg");
+    }
+    .kitten-small-image {
+        display: block;
+    }
+    .kitten-medium-image {
+        display: none;
+    }
+    .kitten-large-image {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .column-lg-12 {
+        width: 100%;
+    }
+    section {
+        background-image: url("../assets/img/sunny-day.jpg");
+    }
+    .kitten-small-image {
+        display: none;
+    }
+    .kitten-medium-image {
+        display: block;
+    }
+    .kitten-large-image {
+        display: none;
+    }
+}
