@@ -7,18 +7,18 @@
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
+     max-width: 1200px;
 }
 
 .kitten-image {
-    height: 550px;
+    height: 560px;
     background-size: cover;
     background-position: center;
 }
 
 section {
     background-image: url("../assets/img/sunny-day.jpg");
-    padding-top: 200px;
+    padding-top: 250px;
 }
 
 img {
@@ -46,12 +46,12 @@ img {
 
 /* media querie */
 
-@media only screen and (min-width :480px) {
+@media only screen and (min-width :80px) {
     .column-xs-12 {
         width: 100%;
     }
     section {
-        background-image: url("../assets/img/dawn.jpg");
+        background-image: url("../assets/img/dawn.png");
     }
     .kitten-small-image {
         display: none;
@@ -68,8 +68,8 @@ img {
     .column-mn-12 {
         width: 100%;
     }
-    section {
-        background-image: url("../assets/img/nigth.jpg");
+     section {
+        background-image: url("../assets/img/night.jpg");
     }
     .kitten-small-image {
         display: block;
