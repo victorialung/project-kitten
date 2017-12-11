@@ -7,11 +7,12 @@
 .container {
     margin: 0 auto;
     width: 100%;
-     max-width: 1200px;
+    max-width: 1200px;
+    min-width: 480px;
 }
 
 .kitten-image {
-    height: 700px;
+    height: 580px;
     background-size: cover;
     background-position: center;
 }
@@ -46,7 +47,7 @@ img {
 
 /* media querie */
 
-@media only screen and (min-width :480px) {
+@media only screen and (min-width :280px) {
     .column-xs-12 {
         width: 100%;
     }
